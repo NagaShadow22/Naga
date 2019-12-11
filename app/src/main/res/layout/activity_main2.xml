@@ -84,3 +84,16 @@
         android:id="@+id/bouton_aide"
         />
 
+    <ImageView
+        android:layout_width="850px"
+        android:layout_height="59px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/Barrederecherche"
+        />
+
+    <ImageView
+        android:layout_width="1448px"
+        android:layout_height="825px"
+        android:layout_marginTop="-41dp"
+        android:src="@drawable/ImageTerminer"
