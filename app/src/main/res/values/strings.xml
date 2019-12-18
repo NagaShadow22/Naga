@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MonAbriVelo</string>
+    <string name="imagebullerecharge">imagebullerecharge</string>
+    <string name="imagebulleemplacement">imagebulleemplacement</string>
+    <string name="imagebullegps">imagebullegps</string>
+    <string name="bullereserve">bullereserve</string>
+    <string name="imagebulleabo">imagebulleabo</string>
+    <string name="imagebullecompte">imagebullecompte</string>
+    <string name="imagebullemeteo">imagebullemeteo</string>
+    <string name="imagebulleiti">imagebulleiti</string>
+    <string name="imagebulleaide">imagebulleaide</string>
+    <string name="imagebullebarre">imagebullebarre</string>
+    <string name="bulleimage">bulleimage</string>
 </resources>

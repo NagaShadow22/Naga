@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView image = new ImageView (this);
         ViewGroup.LayoutParams params = new LinearLayout.LayoutParams(100, 100);
         image.setLayoutParams(params);
-        image.setBackgroundResource(R.drawable.BulleRecharge);
+        image.setBackgroundResource(R.drawable.bullerecharge);
         myLayout.addView(image);
 
 
