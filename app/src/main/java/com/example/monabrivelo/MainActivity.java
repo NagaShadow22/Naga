@@ -1,32 +1,26 @@
 package com.example.monabrivelo;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    private LinearLayout myLayout;
+    private ImageView play;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        this.myLayout = (LinearLayout) findViewById(R.id.myDynamicLayout);
-
-        ImageView image = new ImageView (this);
-        ViewGroup.LayoutParams params = new LinearLayout.LayoutParams(100, 100);
-        image.setLayoutParams(params);
-        image.setBackgroundResource(R.drawable.bullerecharge);
-        myLayout.addView(image);
-
-
-
-
-
+        this.play = (ImageView) findViewById(R.id.bouton_emplacement_libre);
+        this.play = (ImageView) findViewById(R.id.bouton_recharge);
+        this.play = (ImageView) findViewById(R.id.bouton_abonnement);
+        this.play = (ImageView) findViewById(R.id.bouton_aide);
+        this.play = (ImageView) findViewById(R.id.bouton_compte);
+        this.play = (ImageView) findViewById(R.id.bouton_gps);
+        this.play = (ImageView) findViewById(R.id.bouton_itineraire);
+        this.play = (ImageView) findViewById(R.id.bouton_meteo);
+        this.play = (ImageView) findViewById(R.id.bouton_reserve);
     }
 }
