@@ -1,130 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    tools:ignore="ScrollViewCount">
 
-
-    <ImageView
-        android:id="@+id/bouton_emplacement_libre"
-        android:layout_width="147dp"
-        android:layout_height="127dp"
-        android:layout_marginLeft="142dp"
-        android:layout_marginTop="310dp"
-        android:src="@drawable/bulleemplacementlibre"
-        tools:ignore="PxUsage"
-        android:layout_marginStart="142dp"
-        android:contentDescription="@string/imagebulleemplacement"
-        />
-
-    <ImageView
-        android:id="@+id/bouton_recharge"
-        android:layout_width="131dp"
-        android:layout_height="101dp"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="25dp"
-        android:src="@drawable/bullerecharge"
-        tools:ignore="ObsoleteLayoutParam,PxUsage"
-        android:layout_marginStart="25dp"
-        android:contentDescription="@string/imagebullerecharge"
-        />
-
-
-    <ImageView
-        android:id="@+id/bouton_gps"
+    <ScrollView
+        android:id="@+id/scroll"
         android:layout_width="wrap_content"
-        android:layout_height="108dp"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="260dp"
-        android:src="@drawable/bullegps"
-        tools:ignore="PxUsage"
-        android:layout_marginStart="260dp"
-        android:contentDescription="@string/imagebullegps" />
-
-    <ImageView
-        android:id="@+id/bouton_reserve"
-        android:layout_width="148dp"
-        android:layout_height="129dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="450dp"
-        android:src="@drawable/bullereervermplacement"
-        tools:ignore="PxUsage"
-        android:layout_marginStart="15dp"
-        android:contentDescription="@string/bullereserve" />
-
-    <ImageView
-        android:layout_width="322px"
-        android:layout_height="289px"
-        android:layout_marginLeft="155dp"
-        android:layout_marginTop="450dp"
-        android:id="@+id/bouton_abonnement"
-        android:src="@drawable/bulleabonnement"
-        tools:ignore="PxUsage"
-        android:layout_marginStart="155dp"
-        android:contentDescription="@string/imagebulleabo" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="113dp"
-        android:layout_marginLeft="260dp"
-        android:layout_marginTop="450dp"
-        android:src="@drawable/bullemoncompte"
-        android:id="@+id/bouton_compte"
-        tools:ignore="PxUsage"
-        android:layout_marginStart="260dp"
-        android:contentDescription="@string/imagebullecompte" />
-
-    <ImageView
-        android:layout_width="142dp"
-        android:layout_height="110dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="600dp"
-        android:src="@drawable/bullemeteo"
-        android:id="@+id/bouton_meteo"
-        tools:ignore="PxUsage"
-        android:layout_marginStart="20dp"
-        android:contentDescription="@string/imagebullemeteo" />
-
-    <ImageView
-        android:layout_width="143dp"
-        android:layout_height="112dp"
-        android:layout_marginLeft="145dp"
-        android:layout_marginTop="600dp"
-        android:src="@drawable/itineraire"
-        android:id="@+id/bouton_itineraire"
-        tools:ignore="PxUsage"
-        android:layout_marginStart="145dp"
-        android:contentDescription="@string/imagebulleiti" />
-
-    <ImageView
-        android:layout_width="144dp"
-        android:layout_height="112dp"
-        android:layout_marginLeft="265dp"
-        android:layout_marginTop="600dp"
-        android:src="@drawable/bulleaide"
-        android:id="@+id/bouton_aide"
-        tools:ignore="PxUsage"
-        android:layout_marginStart="265dp"
-        android:contentDescription="@string/imagebulleaide" />
-
-    <ImageView
-        android:layout_width="850px"
-        android:layout_height="59px"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="240dp"
-        android:src="@drawable/barrederecherche"
-        tools:ignore="PxUsage"
-        android:contentDescription="@string/imagebullebarre" />
+        tools:ignore="InvalidId,UselessParent">
 
-    <ImageView
-        android:layout_width="1448px"
-        android:layout_height="825px"
-        android:layout_marginTop="-41dp"
-        android:src="@drawable/imageterminer"
-        tools:ignore="PxUsage"
-        android:contentDescription="@string/bulleimage" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
 
+            <ImageView
+                android:id="@+id/bouton_emplacement_libre"
+                android:layout_width="152dp"
+                android:layout_height="119dp"
+                android:layout_marginStart="142dp"
+                android:layout_marginLeft="142dp"
+                android:layout_marginTop="310dp"
+                android:contentDescription="@string/imagebulleemplacement"
+                android:src="@drawable/bulleemplacementlibre"
+                tools:ignore="PxUsage" />
+
+        <ImageView
+            android:id="@+id/bouton_recharge"
+            android:layout_width="131dp"
+            android:layout_height="101dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/bullerecharge"
+            tools:ignore="ObsoleteLayoutParam,PxUsage"
+            android:layout_marginStart="25dp"
+            android:contentDescription="@string/imagebullerecharge"
+            />
+
+
+        <ImageView
+            android:id="@+id/bouton_gps"
+            android:layout_width="wrap_content"
+            android:layout_height="108dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="260dp"
+            android:src="@drawable/bullegps"
+            tools:ignore="ObsoleteLayoutParam,PxUsage"
+            android:layout_marginStart="260dp"
+            android:contentDescription="@string/imagebullegps" />
+
+        <ImageView
+            android:id="@+id/bouton_reserve"
+            android:layout_width="148dp"
+            android:layout_height="129dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="450dp"
+            android:src="@drawable/bullereervermplacement"
+            tools:ignore="PxUsage"
+            android:layout_marginStart="15dp"
+            android:contentDescription="@string/bullereserve" />
+
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="113dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="450dp"
+            android:src="@drawable/bullemoncompte"
+            android:id="@+id/bouton_compte"
+            tools:ignore="PxUsage"
+            android:layout_marginStart="260dp"
+            android:contentDescription="@string/imagebullecompte" />
+
+        <ImageView
+            android:layout_width="142dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/bullemeteo"
+            android:id="@+id/bouton_meteo"
+            tools:ignore="PxUsage"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/imagebullemeteo" />
+
+        <ImageView
+            android:layout_width="143dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/itineraire"
+            android:id="@+id/bouton_itineraire"
+            tools:ignore="PxUsage"
+            android:layout_marginStart="145dp"
+            android:contentDescription="@string/imagebulleiti" />
+
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/bulleaide"
+            android:id="@+id/bouton_aide"
+            tools:ignore="PxUsage"
+            android:layout_marginStart="265dp"
+            android:contentDescription="@string/imagebulleaide" />
+
+        <ImageView
+            android:layout_width="850px"
+            android:layout_height="59px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="240dp"
+            android:src="@drawable/barrederecherche"
+            tools:ignore="ObsoleteLayoutParam,PxUsage"
+            android:contentDescription="@string/imagebullebarre" />
+
+        <ImageView
+            android:layout_width="1448px"
+            android:layout_height="825px"
+            android:layout_marginTop="-41dp"
+            android:src="@drawable/imageterminer"
+            tools:ignore="PxUsage"
+            android:contentDescription="@string/bulleimage" />
+
+            <ImageView
+                android:id="@+id/bouton_abonnement"
+                android:layout_width="117dp"
+                android:layout_height="114dp"
+                android:layout_marginStart="155dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="450dp"
+                android:contentDescription="@string/imagebulleabo"
+                android:src="@drawable/bulleabonnement"
+                tools:ignore="PxUsage" />
+
+        </RelativeLayout>
+
+
+
+
+    </ScrollView>
     </RelativeLayout>
+
